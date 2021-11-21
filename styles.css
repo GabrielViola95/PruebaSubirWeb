@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-weight: 400;
+    background-color: hsl(0,0%,93%);
+}
+
+.main-title{
+    display: block;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitle{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cards{
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    margin: 5em auto;
+}
+
+.card{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px hsl(240 25% 50% / .2);
+    padding: 0 2em;
+    font-size: .9rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card--left{
+    left: 0;
+    top: 150px;
+}
+
+.card--top{
+    top: 0;
+    left: 425px;
+}
+
+.card--right{
+    right: 0;
+    top: 150px;
+}
+
+.card--bottom{
+    bottom: 0;
+    left: 425px;
+}
+
+.card__title, .card__text{
+    text-align: left;
+}
+
+i{
+    position: absolute;
+    right: 2em;
+    bottom: 2em;
+    font-size: xx-large;
+}
+
+.card--cyan{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.card--red{
+    border-top: 5px solid hsl(4, 62%, 55%);
+}
+
+.card--orange{
+    border-top: 5px solid hsl(17, 62%, 55%);
+}
+.card--blue{
+    border-top: 5px solid rgb(40, 66, 182);
+}
